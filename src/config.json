@@ -1,0 +1,83 @@
+{
+  "LogDiscordChannelId": "id kênh để dùng auto log", 
+  
+  "logChannelId": "log để dùng thanh toán tự động",
+  "payosClientId": "",
+  "payosApiKey": "",
+  "payosChecksumKey": "", 
+    
+    
+  "ownerIDs": [
+    "user id owner/ toàn quyền dùng tất cả lệnh!"
+  ],
+  
+  "adminIDs": [
+    "user id để add quyền dùng lệnh của admin ",
+    "ở đây cũng vậy : ))"
+  ],
+  
+  "AutoBanChannelId": "id channel để làm kênh auto ban ",
+
+  "PunishAction": "timeout", 
+  "AutoBanIfStripFails": true,
+  "StripRolesKeep": ["id role", "id role", "id role"],
+
+  "RestoreDeletedChannels": true,
+  "RestoreDeletedRoles": true,
+
+  "ActionLimits": {
+    "channelDelete": {
+      "limit": 2,
+      "windowMs": 10000
+    },
+    "channelCreate": {
+      "limit": 5,
+      "windowMs": 15000
+    },
+    "roleDelete": {
+      "limit": 2,
+      "windowMs": 10000
+    },
+    "roleCreate": {
+      "limit": 5,
+      "windowMs": 15000
+    },
+    "guildBanAdd": {
+      "limit": 2,
+      "windowMs": 10000
+    },
+    "memberKick": {
+      "limit": 2,
+      "windowMs": 10000
+    },
+    "emojiDelete": {
+      "limit": 3,
+      "windowMs": 20000
+    },
+    "stickerDelete": {
+      "limit": 3,
+      "windowMs": 20000
+    }
+  },
+
+  "ANTI_SPAM": {
+    "THRESHOLD": 5,
+    "DURATION": 7000,
+    "RESET_DURATION": 20000,
+    "COOLDOWN": 2000
+  },
+
+  "WHITELISTED_USERS": ["user id"],
+  
+  "gemini_api_keys": [
+    "API_KEY_GEMINI",
+    "API_KEY_GEMINI",
+    "API_KEY_GEMINI"
+  ],
+  "max_concurrent_chunks": 2,
+  "max_chunk_size": 2000,
+  "timeout": 120000,
+  "max_retries_per_key": 5,
+  "retry_delay_ms": 2000
+  
+}
