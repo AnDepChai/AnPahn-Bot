@@ -250,7 +250,7 @@ const CONFIG = {
 };
 
 // 𝙳𝚊𝚗𝚑 𝚜á𝚌𝚑 𝚗𝚐ườ𝚒 𝚍ù𝚗𝚐 đá𝚗𝚐 𝚝𝚒𝚗 𝚌ậ𝚢
-const TRUSTED_USERS = ['958668688607838208', 'YOUR_USER_ID_HERE'];
+const TRUSTED_USERS = ['thêm id user vào ', ''];
 
 // 𝙱ộ đệ𝚖 𝚌𝚑ố𝚗𝚐 𝚜𝚙𝚊𝚖
 const recentLogs = new Map();
