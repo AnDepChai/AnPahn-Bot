@@ -2918,7 +2918,7 @@ const http = require("http");
 const url = require("url");
 
 const WEBHOOK_URL = "http://localhost:3000/webhook/payos"; 
-const CHECKSUM_KEY = "cb9159ace4c611af67f68d3a81e6a6cc655fd88b331370b9e82b67a2f7ebf726"; // đổi thành checksum key thật (hoặc test key)
+const CHECKSUM_KEY = ""; // đổi thành checksum key thật (hoặc test key)
 const useHttps = WEBHOOK_URL.startsWith("https://");
 
 function buildDataString(obj) {
